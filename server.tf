@@ -7,7 +7,7 @@ resource "aws_instance" "myawsserver" {
   key_name = "karl-key"
 
   tags = {
-    Name = "Gagan-devops-ec2-instance-v2"
+    Name = "Karl-devops-ec2-instance-v2"
     env = "development"
   }
   provisioner "local-exec" {
